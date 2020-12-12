@@ -1,0 +1,18 @@
+{
+  "name": "Stairs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.809.0",
+    "ksuid": "^2.0.0",
+    "nodemailer": "^6.4.17",
+    "serverless-step-functions": "^2.29.0"
+  }
+}
