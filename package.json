@@ -12,7 +12,6 @@
   "dependencies": {
     "aws-sdk": "^2.809.0",
     "ksuid": "^2.0.0",
-    "nodemailer": "^6.4.17",
     "serverless-step-functions": "^2.29.0"
   }
 }

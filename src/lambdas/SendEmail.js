@@ -4,8 +4,6 @@ const AWS = require('aws-sdk');
 const S3 = new AWS.S3();
 var SES = new AWS.SES();
 
-const MailComposer = require('nodemailer/lib/mail-composer');
-
 module.exports.handler = async event => {
 
     const key = event.key;
